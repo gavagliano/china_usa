@@ -1,16 +1,27 @@
 .centered {
     text-align: center;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif
-
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
 }
 .article-container {
     max-width: 1000px; /* Adjust the maximum width to your preference */
     margin: 0 auto; /* Center the container on the page */
     padding: 20px;
     padding-bottom: 20px;
+    align-items: center;
+
   }
 
+.center {
+  text-align: center;
+}  
   .paragraph-with-space {
     margin-bottom: 100px; /* Adjust the value as needed */
+}
+
+.resized-image {
+  width: 50%; /* Adjust the percentage as needed */
+  height: auto; /* Maintain aspect ratio */
+
 }
